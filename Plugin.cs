@@ -16,7 +16,7 @@ namespace ItemGiverMod
             MODNAME = "ItemGiver",
             AUTHOR = "anro",
             GUID = AUTHOR + "_" + MODNAME,
-            VERSION = "2.0.1";
+            VERSION = "2.0.2";
 
         private static ManualLogSource log;
 

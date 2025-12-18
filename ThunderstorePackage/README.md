@@ -2,22 +2,26 @@
 
 A powerful item spawning mod for Megabonk with bulk actions and rarity filters.
 
+![ItemGiver Screenshot](https://raw.githubusercontent.com/anro772/ItemGiverMod/master/screenshot.png)
+
 ## Features
 
 ### Bulk Actions
-- **Give All Items x1** - Instantly spawn 1 of every item
-- **Rarity Filters** - Spawn all Legendary, Epic, Rare, or Common items at once
+- **Give All Items x1** - Instantly spawn 1 of every item in the game
+- **Rarity Filters** - Spawn all items of a specific rarity at once:
+  - All Legendary x1
+  - All Epic x1
+  - All Rare x1
+  - All Common x1
 
 ### Individual Control
-- Search items by name
-- Spawn with +1, +5, +10, or +50 buttons
-- Color-coded by rarity:
-  - 🟡 Gold = Legendary [L]
-  - 🟣 Purple = Epic [E]
-  - 🔵 Blue = Rare [R]
-  - ⚪ Gray = Common [C]
-  - 🔴 Red = Corrupted [X]
-  - 🟢 Green = Quest [Q]
+- Search items by name (type to filter)
+- Spawn individual items with +1, +5, +10, or +50 buttons
+- **Color-coded by rarity:**
+  - 🟡 **Gold = Legendary [L]**
+  - 🟣 **Purple = Epic [E]**
+  - 🔵 **Blue = Rare [R]**
+  - ⚪ **Gray = Common [C]**
 
 ## How to Use
 
@@ -55,9 +59,14 @@ A powerful item spawning mod for Megabonk with bulk actions and rarity filters.
 
 ## Support
 
-Report issues or suggestions on the [GitHub page](https://github.com/anro/ItemGiver)
+Report issues or suggestions on the [GitHub page](https://github.com/anro772/ItemGiverMod)
 
 ## Changelog
+
+### v2.0.2
+- Updated description to accurately reflect Megabonk's rarity system
+- Added screenshot to README
+- Removed non-existent rarity types (Corrupted, Quest)
 
 ### v2.0.1
 - Fixed transparency bug when transitioning between runs
