@@ -1,89 +1,81 @@
-# ItemGiver Mod v2.0 for Megabonk
+# ItemGiver
 
-A BepInEx mod that adds a powerful item spawning menu to Megabonk.
+A powerful item spawning mod for Megabonk with bulk actions and rarity filters.
+
+![ItemGiver Screenshot](https://github.com/anro772/ItemGiverMod/blob/d3d1d68b026bdc740bab6ee34f57c670828a42a7/screenshot.png)
 
 ## Features
 
-### 🎁 Bulk Actions
-- **Give All Items x1** - Instantly add 1 of every item in the game
-- **All Legendary x1** - Add 1 of every Legendary rarity item
-- **All Epic x1** - Add 1 of every Epic rarity item
-- **All Rare x1** - Add 1 of every Rare rarity item
-- **All Common x1** - Add 1 of every Common rarity item
+### Bulk Actions
+- **Give All Items x1** - Instantly spawn 1 of every item in the game
+- **Rarity Filters** - Spawn all items of a specific rarity at once:
+  - All Legendary x1
+  - All Epic x1
+  - All Rare x1
+  - All Common x1
 
-### 🔍 Individual Item Control
-- **Search**: Type to filter items by name
-- **Per-item buttons**: +1, +5, +10, +50 for each item
-- **Color-coded rarity**: Items are color-coded by rarity
-  - Gold = Legendary [L]
-  - Purple = Epic [E]
-  - Blue = Rare [R]
-  - Gray = Common [C]
-  - Red = Corrupted [X]
-  - Green = Quest [Q]
+### Individual Control
+- Search items by name (type to filter)
+- Spawn individual items with +1, +5, +10, or +50 buttons
+- **Color-coded by rarity:**
+  - 🟡 **Gold = Legendary [L]**
+  - 🟣 **Purple = Epic [E]**
+  - 🔵 **Blue = Rare [R]**
+  - ⚪ **Gray = Common [C]**
 
-### 🎨 UI Features
-- Clean, modern dark theme
-- Searchable item list with 87+ items
-- Draggable window
-- Scrollable list
-- Real-time keyboard input (no text field needed)
+## How to Use
+
+1. Install via mod manager (automatic) or manually
+2. Launch Megabonk and start a run
+3. Press **F3** to toggle the item menu
+4. Use bulk action buttons or search for specific items
+5. Drag the window by the title bar to reposition
 
 ## Controls
-- **F3** - Toggle the item menu on/off
-- **Type** - Search/filter items while menu is open
+
+- **F3** - Toggle menu
+- **Type** - Search/filter items
 - **Backspace** - Delete search text
-- **Drag title bar** - Move the window
+- **Drag title bar** - Move window
 
 ## Installation
-1. Make sure BepInEx is installed in your Megabonk game folder
-2. Copy `ItemGiver.dll` to `Megabonk\BepInEx\plugins\`
-3. Launch the game
-4. Start a run and press F3
 
-## Requirements
-- BepInEx 6.0+
-- Megabonk game
-- .NET 6.0 (included with BepInEx)
+### With Mod Manager (Recommended)
+1. Click "Install with Mod Manager"
+2. BepInEx will be installed automatically
+3. Launch the game - done!
 
-## Building from Source
-```bash
-cd project/ItemGiverMod
-dotnet build --configuration Release
-```
+### Manual Installation
+1. Download and install [BepInEx 6.0](https://thunderstore.io/c/megabonk/p/BepInEx/BepInExPack_IL2CPP/)
+2. Extract this mod's zip file
+3. Copy `ItemGiver.dll` to `Megabonk/BepInEx/plugins/`
+4. Launch the game
 
-The compiled DLL will be at: `bin/Release/net6.0/ItemGiver.dll`
+## Compatibility
 
-## Project Structure
-```
-project/ItemGiverMod/
-├── Plugin.cs              # Main mod code
-├── ItemGiverMod.csproj    # Project configuration
-└── README.md              # This file
-```
+- Requires BepInEx 6.0+
+- Works with all other mods
+- Safe to use in single-player runs
 
-## Version History
+## Support
+
+Report issues or suggestions on the [GitHub page](https://github.com/anro772/ItemGiverMod)
+
+## Changelog
+
+### v2.0.2
+- Updated description to accurately reflect Megabonk's rarity system
+- Added screenshot to README
+- Removed non-existent rarity types (Corrupted, Quest)
 
 ### v2.0.1
 - Fixed transparency bug when transitioning between runs
-- Window now properly reinitializes styles when texture is destroyed
 
 ### v2.0.0
-- Added bulk action buttons for all items
-- Added rarity-based bulk actions (Legendary, Epic, Rare, Common)
-- Added color-coded items by rarity
-- Added rarity tags ([L], [E], [R], [C], [X], [Q])
-- Improved UI layout with bulk actions section
-- Reorganized project structure
+- Added bulk action buttons
+- Added rarity-based filtering
+- Added color-coded items with rarity tags
+- Improved UI layout
 
 ### v1.0.x
 - Initial release
-- Basic item spawning
-- Search functionality
-- Per-item quantity buttons
-
-## License
-Free to use and modify
-
-## Author
-Created for Megabonk modding
