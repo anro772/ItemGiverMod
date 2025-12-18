@@ -398,13 +398,24 @@ namespace ItemGiverMod
                     return;
                 }
 
+                var dataManager = DataManager.Instance;
+                if (dataManager == null)
+                {
+                    log.LogWarning("DataManager not found!");
+                    return;
+                }
+
                 int count = 0;
                 foreach (var item in allItems)
                 {
                     try
                     {
-                        playerInventory.itemInventory.AddItem(item, 1);
-                        count++;
+                        var itemData = dataManager.GetItem(item);
+                        if (itemData != null)
+                        {
+                            playerInventory.itemInventory.AddItem(item, 1);
+                            count++;
+                        }
                     }
                     catch { }
                 }

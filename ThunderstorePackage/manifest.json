@@ -1,6 +1,6 @@
 {
   "name": "ItemGiver",
-  "version_number": "2.0.3",
+  "version_number": "2.0.4",
   "website_url": "https://github.com/anro772/ItemGiverMod",
   "description": "Spawn items instantly! Bulk actions (all items, all Legendary, Epic, Rare, Common), searchable list, color-coded by rarity. Press F3 to open. Works in-game only.",
   "dependencies": [
