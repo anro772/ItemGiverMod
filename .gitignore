@@ -1,0 +1,19 @@
+# Build artifacts that contain your system paths - DO NOT COMMIT
+bin/
+obj/
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+
+# Backup files
+*.bak
+*.backup
+
+# Only the source files should be in version control:
+# - Plugin.cs
+# - ItemGiverMod.csproj
+# - README.md
+# - .gitignore

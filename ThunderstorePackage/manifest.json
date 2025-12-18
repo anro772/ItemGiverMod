@@ -1,0 +1,9 @@
+{
+  "name": "ItemGiver",
+  "version_number": "2.0.1",
+  "website_url": "https://github.com/anro/ItemGiver",
+  "description": "Spawn items with ease! Bulk actions for all items, rarity-based filters (Legendary/Epic/Rare/Common), searchable UI, and color-coded items. Press F3 to open.",
+  "dependencies": [
+    "BepInEx-BepInExPack_IL2CPP-6.0.738"
+  ]
+}
