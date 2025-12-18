@@ -2,7 +2,7 @@
 
 A powerful item spawning mod for Megabonk with bulk actions and rarity filters.
 
-![ItemGiver Screenshot](https://github.com/anro772/ItemGiverMod/blob/d3d1d68b026bdc740bab6ee34f57c670828a42a7/screenshot.png)
+![ItemGiver Screenshot](https://raw.githubusercontent.com/anro772/ItemGiverMod/d3d1d68b026bdc740bab6ee34f57c670828a42a7/screenshot.png)
 
 ## Features
 
